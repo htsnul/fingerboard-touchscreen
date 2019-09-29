@@ -1,3 +1,8 @@
+/ for iOS
+if (!window.AudioContext) {
+  window.AudioContext = webkitAudioContext;
+}
+
 var gAudioCtx = null;
 var gGainNode = null;
 var gTones = [];
