@@ -1,4 +1,4 @@
-/ for iOS
+// for iOS
 if (!window.AudioContext) {
   window.AudioContext = webkitAudioContext;
 }
